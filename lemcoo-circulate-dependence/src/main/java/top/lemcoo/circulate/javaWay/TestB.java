@@ -10,10 +10,8 @@ public class TestB {
 
     private TestC c;
 
-    public TestB(TestC c) {
-        this.c = c;
-    }
     public void setC(TestC c){
         this.c = c;
+        System.out.println("在B里设置了C");
     }
 }

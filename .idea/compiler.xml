@@ -2,11 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lemcoo-circulate-dependence" />
         <module name="lemcoo-web" />
+        <module name="lemcoo-mybatis" />
         <module name="SpringBoot2.0" />
         <module name="lemcoo-helloworld" />
       </profile>
@@ -14,7 +17,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lemcoo-circulate-dependence" options="-parameters" />
       <module name="lemcoo-helloworld" options="-parameters" />
+      <module name="lemcoo-mybatis" options="-parameters" />
       <module name="lemcoo-web" options="-parameters" />
     </option>
   </component>

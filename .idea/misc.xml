@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/lemcoo-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/lemcoo-web/pom.xml" />
+        <option value="$PROJECT_DIR$/lemcoo-circulate-dependence/pom.xml" />
+        <option value="$PROJECT_DIR$/lemcoo-mybatis/pom.xml" />
       </list>
     </option>
   </component>
